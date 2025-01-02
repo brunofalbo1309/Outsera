@@ -1,6 +1,7 @@
 
 using GoldenRaspberryAwards.Application.Commands;
 using GoldenRaspberryAwards.Application.Interfaces;
+using GoldenRaspberryAwards.Application.Options;
 using GoldenRaspberryAwards.Application.Queries;
 using GoldenRaspberryAwards.Application.Services;
 using GoldenRaspberryAwards.Infrastructure.Persistence;
@@ -29,6 +30,8 @@ namespace GoldenRaspberryAwards.API
 
             builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<BulkInsertMovieCommand>());
             builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<GetAllMoviesQuery>());
+
+            builder.Services.Configure<FileOption>(builder.Configuration.GetSection("FileOption"));
 
             var app = builder.Build();
 

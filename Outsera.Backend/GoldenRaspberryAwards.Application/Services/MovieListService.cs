@@ -9,33 +9,38 @@ using System.Threading.Tasks;
 using System.IO;
 using CsvHelper;
 using GoldenRaspberryAwards.Core.Entities;
-using GoldenRaspberryAwards.Application.Map;
 using CsvHelper.Configuration;
 using System.Globalization;
 using GoldenRaspberryAwards.Application.Interfaces;
+using GoldenRaspberryAwards.Application.Options;
 
 namespace GoldenRaspberryAwards.Application.Services
 {
     public class MovieListService : IMovieListService
     {
-        public BulkInsertMovieCommand ValidateMovieList(Stream stream, string fileName)
+        public BulkInsertMovieCommand ValidateMovieList(FileOption fileOption)
         {
-            if (!Path.GetExtension(fileName).Equals(".csv"))
-                throw new InvalidFileFormatException();
-
-
             var cfg = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 Delimiter = ";"
             };
 
-            using (var reader = new StreamReader(stream))
+
+            var filePath = Path.Combine(fileOption.Folder, fileOption.Name);
+
+            if (!File.Exists(filePath))
+            {
+                throw new FileNotExistsException(fileOption.Folder);
+            }
+
+
+
+            using (var reader = new StreamReader(filePath))
             using (var csvReader = new CsvReader(reader, cfg))
             {
                 return new BulkInsertMovieCommand(csvReader.GetRecords<Movie>().ToList());
             }
-
-
         }
     }
 }
+

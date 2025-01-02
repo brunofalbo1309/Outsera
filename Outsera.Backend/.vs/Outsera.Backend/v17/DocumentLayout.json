@@ -3,20 +3,55 @@
   "WorkspaceRootPath": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5AEFE6C-C692-4376-BC87-556646220447}|GoldenRaspberryAwards.Test.API\\GoldenRaspberryAwards.Test.API.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.test.api\\moviecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5AEFE6C-C692-4376-BC87-556646220447}|GoldenRaspberryAwards.Test.API\\GoldenRaspberryAwards.Test.API.csproj|solutionrelative:goldenraspberryawards.test.api\\moviecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E55D8CD-C35D-46ED-AD79-939560C19313}|Itens de Solu\u00E7\u00E3o{7E55D8CD-C35D-46ED-AD79-939560C19313}|C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.application\\services\\movielistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|solutionrelative:goldenraspberryawards.application\\services\\movielistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|solutionrelative:goldenraspberryawards.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|solutionrelative:goldenraspberryawards.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|solutionrelative:goldenraspberryawards.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F5AEFE6C-C692-4376-BC87-556646220447}|GoldenRaspberryAwards.Test\\GoldenRaspberryAwards.Test.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.test\\moviecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5AEFE6C-C692-4376-BC87-556646220447}|GoldenRaspberryAwards.Test\\GoldenRaspberryAwards.Test.csproj|solutionrelative:goldenraspberryawards.test\\moviecontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|solutionrelative:goldenraspberryawards.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.application\\services\\producerawardintervalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|solutionrelative:goldenraspberryawards.application\\services\\producerawardintervalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7EE132D-0CB4-4C5E-AB98-5E17275D2876}|GoldenRaspberryAwards.Core\\GoldenRaspberryAwards.Core.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.core\\exceptions\\filenotexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE132D-0CB4-4C5E-AB98-5E17275D2876}|GoldenRaspberryAwards.Core\\GoldenRaspberryAwards.Core.csproj|solutionrelative:goldenraspberryawards.core\\exceptions\\filenotexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EE132D-0CB4-4C5E-AB98-5E17275D2876}|GoldenRaspberryAwards.Core\\GoldenRaspberryAwards.Core.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.core\\exceptions\\emptylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EE132D-0CB4-4C5E-AB98-5E17275D2876}|GoldenRaspberryAwards.Core\\GoldenRaspberryAwards.Core.csproj|solutionrelative:goldenraspberryawards.core\\exceptions\\emptylistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.application\\commands\\bulkinsertmovie\\bulkinsertmoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|solutionrelative:goldenraspberryawards.application\\commands\\bulkinsertmovie\\bulkinsertmoviecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}|GoldenRaspberryAwards.API\\GoldenRaspberryAwards.API.csproj|solutionrelative:goldenraspberryawards.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.application\\options\\fileoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|solutionrelative:goldenraspberryawards.application\\options\\fileoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|c:\\bruno\\outsera\\backend\\outsera\\outsera.backend\\goldenraspberryawards.application\\interfaces\\imovielistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8ED70AA-3862-4504-BD47-F040E40A071D}|GoldenRaspberryAwards.Application\\GoldenRaspberryAwards.Application.csproj|solutionrelative:goldenraspberryawards.application\\interfaces\\imovielistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +61,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwDQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T19:07:20.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MovieControllerTest.cs",
-              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Test.API\\MovieControllerTest.cs",
-              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Test.API\\MovieControllerTest.cs",
-              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Test.API\\MovieControllerTest.cs",
-              "RelativeToolTip": "GoldenRaspberryAwards.Test.API\\MovieControllerTest.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAswCMAAAAJAAAA",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Test\\MovieControllerTest.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Test\\MovieControllerTest.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Test\\MovieControllerTest.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Test\\MovieControllerTest.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T19:07:51.917Z",
+              "WhenOpened": "2025-01-02T20:11:49.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProducerAwardIntervalService.cs",
-              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Services\\ProducerAwardIntervalService.cs",
-              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Application\\Services\\ProducerAwardIntervalService.cs",
-              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Services\\ProducerAwardIntervalService.cs",
-              "RelativeToolTip": "GoldenRaspberryAwards.Application\\Services\\ProducerAwardIntervalService.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAIAwwB4AAAAMAAAA",
+              "DocumentIndex": 12,
+              "Title": "IMovieListService.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Interfaces\\IMovieListService.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Application\\Interfaces\\IMovieListService.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Interfaces\\IMovieListService.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Application\\Interfaces\\IMovieListService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T18:52:06.47Z"
+              "WhenOpened": "2025-01-02T19:54:46.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileOption.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Options\\FileOption.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Application\\Options\\FileOption.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Options\\FileOption.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Application\\Options\\FileOption.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:52:28.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.API\\appsettings.Development.json",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\appsettings.Development.json",
+              "RelativeToolTip": "GoldenRaspberryAwards.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T19:39:31.308Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\appsettings.json",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.API\\appsettings.json",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\appsettings.json",
+              "RelativeToolTip": "GoldenRaspberryAwards.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T19:39:29.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Program.cs",
               "RelativeDocumentMoniker": "GoldenRaspberryAwards.API\\Program.cs",
               "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Program.cs",
               "RelativeToolTip": "GoldenRaspberryAwards.API\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T18:50:44.431Z"
+              "WhenOpened": "2025-01-02T20:07:28.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.API\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T18:53:37.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieListService.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Services\\MovieListService.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Application\\Services\\MovieListService.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Services\\MovieListService.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Application\\Services\\MovieListService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:31:44.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-02T21:43:16.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileNotExistsException.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Core\\Exceptions\\FileNotExistsException.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Core\\Exceptions\\FileNotExistsException.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Core\\Exceptions\\FileNotExistsException.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Core\\Exceptions\\FileNotExistsException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:29:34.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GoldenRaspberryAwards.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T21:52:32.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmptyListException.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Core\\Exceptions\\EmptyListException.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Core\\Exceptions\\EmptyListException.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Core\\Exceptions\\EmptyListException.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Core\\Exceptions\\EmptyListException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T21:29:51.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BulkInsertMovieCommandHandler.cs",
+              "DocumentMoniker": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Commands\\BulkInsertMovie\\BulkInsertMovieCommandHandler.cs",
+              "RelativeDocumentMoniker": "GoldenRaspberryAwards.Application\\Commands\\BulkInsertMovie\\BulkInsertMovieCommandHandler.cs",
+              "ToolTip": "C:\\BRUNO\\Outsera\\BACKEND\\Outsera\\Outsera.Backend\\GoldenRaspberryAwards.Application\\Commands\\BulkInsertMovie\\BulkInsertMovieCommandHandler.cs",
+              "RelativeToolTip": "GoldenRaspberryAwards.Application\\Commands\\BulkInsertMovie\\BulkInsertMovieCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:21:05.999Z"
             }
           ]
         }

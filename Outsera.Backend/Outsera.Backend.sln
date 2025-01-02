@@ -5,17 +5,22 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B13DE3FC-56A4-4FDA-AC14-02105753EF70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Application", "GoldenRaspberryAwards.Application\GoldenRaspberryAwards.Application.csproj", "{F8ED70AA-3862-4504-BD47-F040E40A071D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.Application", "GoldenRaspberryAwards.Application\GoldenRaspberryAwards.Application.csproj", "{F8ED70AA-3862-4504-BD47-F040E40A071D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Core", "GoldenRaspberryAwards.Core\GoldenRaspberryAwards.Core.csproj", "{E7EE132D-0CB4-4C5E-AB98-5E17275D2876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.Core", "GoldenRaspberryAwards.Core\GoldenRaspberryAwards.Core.csproj", "{E7EE132D-0CB4-4C5E-AB98-5E17275D2876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Infrastructure", "GoldenRaspberryAwards.Infrastructure\GoldenRaspberryAwards.Infrastructure.csproj", "{BCA623F1-E358-4ED2-8424-0BD6894B4E14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.Infrastructure", "GoldenRaspberryAwards.Infrastructure\GoldenRaspberryAwards.Infrastructure.csproj", "{BCA623F1-E358-4ED2-8424-0BD6894B4E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.API", "GoldenRaspberryAwards.API\GoldenRaspberryAwards.API.csproj", "{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.API", "GoldenRaspberryAwards.API\GoldenRaspberryAwards.API.csproj", "{3F4103C0-4E51-46D2-B1C2-EF7727AB73FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5C2AD506-F652-426D-8FD3-5FC293C421DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Test.API", "GoldenRaspberryAwards.Test.API\GoldenRaspberryAwards.Test.API.csproj", "{F5AEFE6C-C692-4376-BC87-556646220447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoldenRaspberryAwards.Test", "GoldenRaspberryAwards.Test\GoldenRaspberryAwards.Test.csproj", "{F5AEFE6C-C692-4376-BC87-556646220447}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{7E55D8CD-C35D-46ED-AD79-939560C19313}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

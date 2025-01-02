@@ -17,12 +17,7 @@ namespace GoldenRaspberryAwards.Application.Commands
         public async Task<int> Handle(BulkInsertMovieCommand request, CancellationToken cancellationToken)
         {
             await _dbContext.Database.EnsureCreatedAsync(cancellationToken);
-
-            //await _dbContext.Movies.AddAsync(new Movie(2010,"title","studio","producer","winner"));
-
             await _dbContext.BulkInsertAsync<Movie>(request.Movies);
-
-
             return await _dbContext.SaveChangesAsync(cancellationToken);
         }
     }

@@ -1,4 +1,5 @@
 ﻿using GoldenRaspberryAwards.Application.Commands;
+using GoldenRaspberryAwards.Application.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace GoldenRaspberryAwards.Application.Interfaces
 {
     public interface IMovieListService
     {
-        BulkInsertMovieCommand ValidateMovieList(Stream stream, string fileName);
+        BulkInsertMovieCommand ValidateMovieList(FileOption fileOption);
     }
 }

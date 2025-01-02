@@ -1,12 +1,14 @@
-﻿using GoldenRaspberryAwards.API;
+﻿using System.Net;
 using Microsoft.AspNetCore.Mvc.Testing;
+using GoldenRaspberryAwards.API;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GoldenRaspberryAwards.Test.API
+namespace GoldenRaspberryAwards.Test
 {
     public class MovieControllerTest : IClassFixture<WebApplicationFactory<Program>>
     {
@@ -19,20 +21,25 @@ namespace GoldenRaspberryAwards.Test.API
 
 
         [Theory]
-        [InlineData("/")]
-        [InlineData("/GetProducerAwardInterval")]
-        public async Task Get_EndpointsReturnSuccessAndCorrectContentType(string url)
+        [InlineData("/Movie/")]
+        public async Task Get_EndpointsReturnSuccess(string url)
         {
-            // Arrange
             var client = _factory.CreateClient();
 
-            // Act
             var response = await client.GetAsync(url);
 
-            // Assert
-            response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.Equal("text/html; charset=utf-8",
-                response.Content.Headers.ContentType.ToString());
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        }
+
+        [Theory]
+        [InlineData("/Movie/")]
+        public async Task Post_EndpointsReturnSuccess(string url)
+        {
+            var client = _factory.CreateClient();
+
+            var response = await client.PostAsync(url,null);
+
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         }
     }
 }

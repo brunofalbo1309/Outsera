@@ -19,6 +19,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GoldenRaspberryAwards.API\GoldenRaspberryAwards.API.csproj" />
+    <ProjectReference Include="..\GoldenRaspberryAwards.Application\GoldenRaspberryAwards.Application.csproj" />
+    <ProjectReference Include="..\GoldenRaspberryAwards.Core\GoldenRaspberryAwards.Core.csproj" />
+    <ProjectReference Include="..\GoldenRaspberryAwards.Infrastructure\GoldenRaspberryAwards.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
