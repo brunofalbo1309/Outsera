@@ -1,0 +1,7 @@
+@GoldenRaspberryAwards.API_HostAddress = http://localhost:5279
+
+GET {{GoldenRaspberryAwards.API_HostAddress}}/movie/
+Accept: application/json
+
+
+###
