@@ -19,14 +19,11 @@ namespace GoldenRaspberryAwards.API.Controllers
 
         private readonly IProducerAwardIntervalService _producerAwardIntervalService;
 
-        private readonly FileOption _fileOption;
-
-        public MovieController(IMovieListService movieListService, IMediator mediator, IProducerAwardIntervalService producerAwardIntervalService, IOptions<FileOption> fileOption)
+        public MovieController(IMovieListService movieListService, IMediator mediator, IProducerAwardIntervalService producerAwardIntervalService)
         {
             _movieListService = movieListService;
             _mediator = mediator;
             _producerAwardIntervalService = producerAwardIntervalService;
-            _fileOption = fileOption.Value;
         }
 
         
@@ -39,9 +36,10 @@ namespace GoldenRaspberryAwards.API.Controllers
         }
 
         [HttpPost]
+        [Obsolete]
         public async Task<IActionResult> PostMovieList()
         {
-            var bulkInsertMovieCommand = _movieListService.ValidateMovieList(_fileOption);
+            var bulkInsertMovieCommand = _movieListService.ValidateMovieList();
 
             var retorno = await _mediator.Send(bulkInsertMovieCommand);
 

@@ -13,12 +13,20 @@ using CsvHelper.Configuration;
 using System.Globalization;
 using GoldenRaspberryAwards.Application.Interfaces;
 using GoldenRaspberryAwards.Application.Options;
+using Microsoft.Extensions.Options;
 
 namespace GoldenRaspberryAwards.Application.Services
 {
     public class MovieListService : IMovieListService
     {
-        public BulkInsertMovieCommand ValidateMovieList(FileOption fileOption)
+        public MovieListService(IOptions<FileOption> fileOption)
+        {
+            _fileOption = fileOption.Value;
+        }
+
+        private readonly FileOption _fileOption;
+
+        public BulkInsertMovieCommand ValidateMovieList()
         {
             var cfg = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
@@ -26,20 +34,20 @@ namespace GoldenRaspberryAwards.Application.Services
             };
 
 
-            var filePath = Path.Combine(fileOption.Folder, fileOption.Name);
+            var filePath = Path.Combine(_fileOption.Folder, _fileOption.Name);
 
             if (!File.Exists(filePath))
             {
-                throw new FileNotExistsException(fileOption.Folder);
+                throw new FileNotExistsException(_fileOption.Folder);
             }
 
 
 
-            using (var reader = new StreamReader(filePath))
-            using (var csvReader = new CsvReader(reader, cfg))
-            {
+            var reader = new StreamReader(filePath);
+            var csvReader = new CsvReader(reader, cfg);
+                //var retorno = csvReader.GetRecords<Movie>().ToList();
                 return new BulkInsertMovieCommand(csvReader.GetRecords<Movie>().ToList());
-            }
+            
         }
     }
 }

@@ -10,6 +10,6 @@ namespace GoldenRaspberryAwards.Application.Interfaces
 {
     public interface IMovieListService
     {
-        BulkInsertMovieCommand ValidateMovieList(FileOption fileOption);
+        BulkInsertMovieCommand ValidateMovieList();
     }
 }

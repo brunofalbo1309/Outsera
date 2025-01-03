@@ -5,6 +5,7 @@ using GoldenRaspberryAwards.Application.Options;
 using GoldenRaspberryAwards.Application.Queries;
 using GoldenRaspberryAwards.Application.Services;
 using GoldenRaspberryAwards.Infrastructure.Persistence;
+using MediatR;
 
 namespace GoldenRaspberryAwards.API
 {
@@ -33,7 +34,17 @@ namespace GoldenRaspberryAwards.API
 
             builder.Services.Configure<FileOption>(builder.Configuration.GetSection("FileOption"));
 
+
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var movieService = services.GetService<IMovieListService>();
+                var mediator = services.GetService<IMediator>();
+                var movielist = movieService.ValidateMovieList();
+                mediator.Send(movieService.ValidateMovieList());
+            }
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

@@ -22,9 +22,7 @@ namespace GoldenRaspberryAwards.Application.Queries.GetAllMovies
 
         public async Task<List<Movie>> Handle(GetAllMoviesQuery request, CancellationToken cancellationToken)
         {
-            await _dbContext.Database.EnsureCreatedAsync(cancellationToken);
             var retorno = _dbContext.Movies.ToList<Movie>();
-
             return retorno;
         }
     }

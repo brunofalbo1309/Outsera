@@ -22,12 +22,6 @@ Retorna uma lista com maior intervalo entre dois prêmios consecutivos, e o que o
   GET /Movie
 ```
 
-Retorna um item
-
-```http
-  POST /Movie
-```
-
 ## Rodando os testes
 
 Para rodar diretamente na API `via CLI` use os seguintes comandos:
@@ -35,11 +29,6 @@ Para rodar diretamente na API `via CLI` use os seguintes comandos:
 #### GET 
 ```curl
   curl -X GET http://localhost:5279/Movie
-```
-
-#### POST
-```curl
-  curl -X POST http://localhost:5279/Movie
 ```
 
 Para rodar o projeto de teste acesse do diretório `[diretório raiz do repositório]\Outsera.Backend\GoldenRaspberryAwards.Test`. Nele, `via CLI` use o seguinte comando:
